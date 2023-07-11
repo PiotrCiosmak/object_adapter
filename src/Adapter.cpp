@@ -1,8 +1,7 @@
-#include "../../include/adapter/Adapter.hpp"
+#include "../include/Adapter.hpp"
 
-Adapter::Adapter(Adaptee* new_adaptee) : adaptee{new_adaptee}
-{
-}
+Adapter::Adapter(const std::shared_ptr<Adaptee>& new_adaptee) : adaptee{new_adaptee}
+{}
 
 std::string Adapter::request() const
 {

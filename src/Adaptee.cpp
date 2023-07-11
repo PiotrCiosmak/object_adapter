@@ -1,4 +1,4 @@
-#include "../../include/adaptee/Adaptee.hpp"
+#include "../include/Adaptee.hpp"
 
 std::string Adaptee::specificRequest() const
 {

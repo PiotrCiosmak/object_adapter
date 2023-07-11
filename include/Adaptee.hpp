@@ -5,5 +5,5 @@
 class Adaptee
 {
 public:
-    std::string specificRequest() const;
+    [[nodiscard]] std::string specificRequest() const;
 };

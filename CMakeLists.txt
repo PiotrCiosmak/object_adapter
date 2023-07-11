@@ -3,4 +3,4 @@ project(object_adapter)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(object_adapter main.cpp src/target/Target.cpp src/adaptee/Adaptee.cpp src/adapter/Adapter.cpp)
+add_executable(object_adapter main.cpp include/Adaptee.hpp src/Adaptee.cpp include/Adapter.hpp src/Adapter.cpp include/Target.hpp src/Target.cpp)
